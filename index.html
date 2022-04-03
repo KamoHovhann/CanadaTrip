@@ -1,0 +1,50 @@
+<!DOCTYPE html>>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Video Background</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+<video autoplay loop id="myVideo">
+  <source src="Toronto.mp4" type="video/mp4">
+</video>
+
+<!-- Optional: some overlay text to describe the video -->
+<div class="content">
+  <h1>Our Canada Trip</h1>
+  <p>The day when three friends have decided to travel to Canada...</p>
+  <!-- Use a button to pause/play the video with JavaScript -->
+  <button id="myBtn" onclick="myFunction()">Pause</button>
+</div>
+<div class="until" id="myCountdown">
+  <div class="until__component">
+     <div class="until__numeric until__numeric--days">00</div>
+     <div class="until__unit">Days</div>
+
+  </div>
+  <div class="until__component">
+     <div class="until__numeric until__numeric--hours">00</div>
+     <div class="until__unit">Hours</div>
+
+  </div>
+  <div class="until__component">
+     <div class="until__numeric until__numeric--minutes">00</div>
+     <div class="until__unit">Minutes</div>
+
+  </div>
+  <div class="until__component">
+     <div class="until__numeric until__numeric--seconds">00</div>
+     <div class="until__unit">Seconds</div>
+
+  </div>
+   <div class="until__event">Until 14 September 2022</div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.11.0/dayjs.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.11.0/plugin/duration.min.js"></script>
+<script src="main.js"></script>
+
+
+</body>
+</html>
