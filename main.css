@@ -13,9 +13,10 @@ html{
   position: fixed;
   right: 0;
   bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
-  transform: scaleY(1.33);
+  width: 100vw;
+  height: 100vh;
+  object-fit:cover;
+  transform: scaleY(1.15);
 
 
 
